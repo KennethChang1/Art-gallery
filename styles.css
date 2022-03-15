@@ -71,3 +71,55 @@ h1{
     top: 0px;
     padding: 20px;
 }
+
+.gallery{
+    margin-left: 12%;
+}
+
+.gallery > div:nth-of-type(1) {
+    height: 280px;
+    width: 350px;
+    margin-top: 20%;
+}
+
+.gallery > div:nth-of-type(2) {
+    position: absolute;
+    width: 445px;
+    height: 377px;
+    background-color: #151515;
+    right: 164px;
+    top: 251%;
+}
+
+h2, h3{
+    font-family: 'Big Shoulders Display';
+    font-weight: 900;
+    font-size: 60px;
+}
+
+h3, .description{
+    color: #FFFFFF;
+    margin: 10%;
+}
+
+.gallery p{
+    font-family: 'Outfit', sans-serif;
+    font-size: 22px;
+}
+
+.gallery > img:nth-of-type(1){
+    position: absolute;
+    right: 164px;
+    top: 140%;
+}
+
+.gallery > img:nth-of-type(2){
+    position: absolute;
+    top: 201%;
+}
+
+.gallery > img:nth-of-type(3){
+    position: absolute;
+    right: 164px;
+    top: 201%;
+}
