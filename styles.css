@@ -27,6 +27,7 @@
     width: 15em;
     left: 67%;
     top: 25%;
+    line-height: 32px;
 }
 
 h1{
@@ -36,7 +37,37 @@ h1{
     width: 5em;
     font-weight: 900;
     line-height: 88px;
-    left: 160px;
+    left: 11vw;
     top: 25%;
 }
 
+.button{
+    position: absolute;
+    top: 60%;
+    left: 67%;
+}
+
+.location{
+    display: block;
+    font-family: 'Big Shoulders Display';
+    background-color: #151515;
+    color: #FFFFFF;
+    font-size: 1.25rem;
+    font-weight: 800;
+    letter-spacing: 3.6px;
+    text-decoration: none;
+    height: 72px;
+    width: 204px;
+    padding-top: 25px;
+    text-align: center;
+}
+
+.button img{
+    position: absolute;
+    background-color: #D5966C;
+    width: 56px;
+    height: 72px;
+    right: -55px;
+    top: 0px;
+    padding: 20px;
+}
