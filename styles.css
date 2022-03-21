@@ -1,160 +1,118 @@
 *{
     box-sizing: border-box;
-    margin: 0;
     padding: 0;
-}
-
-.section-1{
-    display: flex;
-}
-
-.left-side{
-    background-color: #151515;
-    color: #FFFFFF;
-    width: 31vw;
-    height: 115vh;
-}
-
-.hero-image img{
-    height: 115vh;
-    width: 40vw;
-}
-
-.hero-image p{
-    position: absolute;
-    font-family: 'Outfit', sans-serif;
-    font-size: 1.3rem;
-    width: 15em;
-    left: 67%;
-    top: 25%;
-    line-height: 32px;
+    margin: 0;
 }
 
 h1{
-    font-family: 'Big Shoulders Display';
-    position: absolute;
-    font-size: 6rem;
-    width: 5em;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 60px;
+    line-height: 55px;
     font-weight: 900;
-    line-height: 88px;
-    left: 11vw;
-    top: 25%;
-}
-
-.button{
-    position: absolute;
-    top: 60%;
-    left: 67%;
-}
-
-.location{
-    display: block;
-    font-family: 'Big Shoulders Display';
-    background-color: #151515;
-    color: #FFFFFF;
-    font-size: 1.25rem;
-    font-weight: 800;
-    letter-spacing: 3.6px;
-    text-decoration: none;
-    height: 72px;
-    width: 204px;
-    padding-top: 25px;
-    text-align: center;
-}
-
-.button img{
-    position: absolute;
-    background-color: #D5966C;
-    width: 56px;
-    height: 72px;
-    right: -55px;
-    top: 0px;
-    padding: 20px;
-}
-
-.gallery{
-    margin-left: 12%;
-}
-
-.gallery > div:nth-of-type(1) {
-    height: 280px;
-    width: 350px;
-    margin-top: 20%;
-}
-
-.gallery > div:nth-of-type(2) {
-    position: absolute;
-    width: 445px;
-    height: 377px;
-    background-color: #151515;
-    right: 164px;
-    top: 251%;
 }
 
 h2, h3{
-    font-family: 'Big Shoulders Display';
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 50px;
+    line-height: 45px;
     font-weight: 900;
-    font-size: 60px;
 }
 
-h3, .description{
-    color: #FFFFFF;
-    margin: 10%;
+h3{
+    margin-bottom: 24px;
 }
 
-.gallery p{
-    font-family: 'Outfit', sans-serif;
-    font-size: 22px;
+h4{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 20px;
+    font-weight: 900;
 }
 
-.gallery > img:nth-of-type(1){
-    position: absolute;
-    right: 164px;
-    top: 140%;
-}
-
-.gallery > img:nth-of-type(2){
-    position: absolute;
-    top: 201%;
-}
-
-.gallery > img:nth-of-type(3){
-    position: absolute;
-    right: 164px;
-    top: 201%;
-}
-
-footer{
-    position: absolute;
-    display: flex;
-    align-items: center;
-    background-color: #151515;
-    color: #FFFFFF;
-    top: 2310px;
+.image{
     width: 100%;
-    height: 244px;
 }
 
-footer > div:nth-child(1){
-    flex-basis: 25%;
-    margin-left: 12%;
-    font-family: 'Big Shoulders Display';
-    font-weight: 900;
-    font-size: 30px;
+.child{
+    margin-bottom: 120px;
 }
 
-footer > div:nth-child(2){
-    flex-basis: 30%;
-    font-family: 'Outfit', sans-serif;
+.child > div{
+    margin: 0 10px 0 10px
+}
+
+.content-top *, .second-image{
+    margin-top: 32px;
+}
+
+.child p{
+    font-family: 'Outfit';
     font-size: 18px;
     line-height: 28px;
 }
 
-footer > div:nth-child(3){
-    flex-basis: 20%;
-    margin-left: auto;
+.child a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Big Shoulders Display', cursive;
+    background-color: #151515;
+    color: #ffff;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 20px;
+    height: 72px;
+    width: 204px;
 }
 
-.footer-logo{
-    margin-left: 10px;
+.child a::after{
+    position: absolute;
+    left: 210px;
+    content: url('assets/icon-arrow-right.svg');
+    width: 3.5rem;
+    height: 4.5rem;
+    background-color: #D5966C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child:nth-of-type(2) > div:nth-of-type(2){
+    margin-top: 25px;
+}
+
+.child:nth-of-type(2) > div:nth-of-type(2) p{
+    margin-top: 21px;
+}
+
+.third-image{
+    margin-top: 16px;
+}
+
+.child:nth-of-type(2) > div:nth-of-type(5){
+    background-color: #151515;
+    color: #FFFFFF;
+    padding: 48px 24px 47px 24px;
+    margin-top: 16px;
+}
+
+footer{
+    background-color: #151515;
+    color: #FFFFFF;
+    height: 336px;
+    width: 100%;
+    padding: 48px 32px 48px 32px;
+}
+
+footer > p{
+    font-family: 'Outfit';
+    font-size: 16px;
+    line-height: 26px;
+}
+
+footer > *{
+    margin-bottom: 32px;
+}
+
+footer img{
+    margin-right: 10px;
 }
