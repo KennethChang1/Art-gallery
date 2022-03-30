@@ -6,9 +6,9 @@
 
 h1 {
     font-family: 'Big Shoulders Display', cursive;
+    width: 70%;
     font-size: 60px;
     line-height: 55px;
-    font-weight: 900;
 }
 
 h2,
@@ -120,6 +120,10 @@ footer img {
 }
 
 @media screen and (min-width:700px) {
+    .image{
+        all: unset;
+    }
+
     h1{
         position: absolute;
         left: 2em;
@@ -128,6 +132,11 @@ footer img {
         font-size: 6rem;
         width: 28rem;
         line-height: 88px;
+    }
+
+    h2{
+        font-size: 60px;
+        line-height: 60px;
     }
 
     .container{
