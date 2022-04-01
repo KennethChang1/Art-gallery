@@ -148,6 +148,10 @@ footer img {
         flex-direction: column;
     }
 
+    .hero-image{
+        all: initial;
+    }
+
     .child > div{
         margin: 0;
     }
